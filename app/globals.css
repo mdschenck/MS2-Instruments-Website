@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-brand-bg text-brand-text antialiased;
+  }
+
+  ::selection {
+    @apply bg-brand-accent/30 text-white;
+  }
+}
+
+@layer utilities {
+  .text-glow-orange {
+    text-shadow: 0 0 20px rgba(255, 107, 53, 0.5), 0 0 40px rgba(255, 107, 53, 0.2);
+  }
+
+  .text-glow-green {
+    text-shadow: 0 0 20px rgba(0, 255, 136, 0.5), 0 0 40px rgba(0, 255, 136, 0.2);
+  }
+
+  .border-glow-orange {
+    box-shadow: 0 0 15px rgba(255, 107, 53, 0.15), inset 0 0 15px rgba(255, 107, 53, 0.05);
+  }
+
+  .border-glow-green {
+    box-shadow: 0 0 15px rgba(0, 255, 136, 0.15), inset 0 0 15px rgba(0, 255, 136, 0.05);
+  }
+}
