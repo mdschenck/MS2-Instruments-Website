@@ -56,8 +56,8 @@ function InstrumentBlock({
       }`}
     >
       {/* Image */}
-      <div className="shrink-0 md:w-[450px]">
-        <div className="relative aspect-[450/700] w-full overflow-hidden rounded-xl border border-white/5 bg-brand-panel">
+      <div className="shrink-0 md:w-[600px]">
+        <div className="relative aspect-[600/450] w-full overflow-hidden rounded-xl border border-white/5 bg-brand-panel">
           {/* Placeholder content */}
           <div className="flex h-full w-full flex-col items-center justify-center gap-3">
             <div className="flex h-16 w-16 items-center justify-center rounded-full border border-white/10 text-brand-muted">
@@ -67,7 +67,7 @@ function InstrumentBlock({
                 <path d="M21 15l-5-5L5 21" />
               </svg>
             </div>
-            <p className="text-sm text-brand-muted">450 &times; 700</p>
+            <p className="text-sm text-brand-muted">600 &times; 450</p>
           </div>
         </div>
       </div>
