@@ -11,6 +11,9 @@ export default function Header() {
           <Link href="/tr-xxx" className="text-brand-muted transition-colors hover:text-brand-accent">
             TR-XXX
           </Link>
+          <Link href="/unhinged" className="text-brand-muted transition-colors hover:text-brand-accent">
+            Unhinged
+          </Link>
           <Link href="/privacy" className="text-brand-muted transition-colors hover:text-brand-accent">
             Privacy
           </Link>
